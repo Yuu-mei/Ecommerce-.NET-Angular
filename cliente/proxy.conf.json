@@ -1,0 +1,9 @@
+{
+    "/server/" :{
+        "target":"",
+        "secure": false, 
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {"^/server":""}
+    }
+}

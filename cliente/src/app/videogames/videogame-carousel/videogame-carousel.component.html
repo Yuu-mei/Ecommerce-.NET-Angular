@@ -1,0 +1,24 @@
+<div class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-6">
+            <img src="server/img/header/{{videogame.id}}.jpg" class="img-fluid rounded-start img-full-height" alt="...">
+        </div>
+        <div class="col-md-6">
+            <div class="card-body">
+                <h5 class="card-title">{{videogame.title}}</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Developers:
+                        <a class="btn btn-sm btn-outline-primary rounded text-fluid" (click)="getVideogamesByDeveloper(videogame.developer)">{{videogame.developer}}</a>
+                </h6>
+                <p class="card-text px-3">{{videogame.description}}</p>
+                <div class="d-flex justify-content-between mt-auto">
+                    <p class="card-text">
+                        <small class="text-body-secondary">${{videogame.price}}</small>
+                    </p>
+                    <p class="card-text">
+                        <a class="btn btn-sm btn-outline-warning" (click)="getVideogameDetails(videogame.id)">Details</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

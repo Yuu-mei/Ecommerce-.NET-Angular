@@ -1,0 +1,89 @@
+<div class="row">
+    <div class="d-flex justify-content-center align-items-center">
+        <form method="post" enctype="multipart/form-data" #addVideogameForm="ngForm" (ngSubmit)="onVideogameAdd(addVideogameForm)">
+            <!-- Header Image -->
+            <div class="mb-3">
+                <label for="headerImage" class="form-label">Header Image</label>
+                <input 
+                    type="file" class="form-control" name="headerImage" required
+                    (change)="headerImgChange($event)"
+                />
+            </div>
+            
+            <!-- Capsule Image -->
+            <div class="mb-3">
+                <label for="capsuleImage" class="form-label">Capsule Image</label>
+                <input 
+                    type="file" class="form-control" name="capsuleImage" required
+                    (change)="capsuleImgChange($event)"
+                />
+            </div>
+            
+            <!-- Title -->
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input 
+                    type="text" class="form-control" name="title" placeholder="title" required
+                    #title [(ngModel)]="videogame.title"
+                />
+            </div>
+    
+            <!-- Description -->
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea 
+                    class="form-control" name="description" required
+                    #description [(ngModel)]="videogame.description"
+                >
+                </textarea>
+            </div>
+    
+            <!-- Price -->
+            <div class="mb-3">
+                <label for="price" class="form-label">Price</label>
+                <input 
+                    type="number" step=".01" class="form-control" name="price"  required
+                    #price [(ngModel)]="videogame.price"
+                />
+            </div>
+    
+            <!-- Release Date -->
+            <div class="mb-3">
+                <label for="release_date" class="form-label">Release Date</label>
+                <input 
+                    type="date" class="form-control" name="release_date" required
+                    #releaseDate [(ngModel)]="release_date"
+                />
+            </div>
+    
+            <!-- Tags -->
+            <div class="mb-3">
+                <label for="tag" class="form-label">Tag</label>
+                <input 
+                    type="text" class="form-control" name="tag" required
+                    #tag [(ngModel)]="videogame.tag"
+                />
+            </div>
+
+            <!-- Developer -->
+            <div class="mb-3">
+                <label for="developer" class="form-label">Developer</label>
+                <input 
+                    type="text" class="form-control" name="developer" required
+                    #developer [(ngModel)]="videogame.developer"
+                />
+            </div>
+
+            <!-- On Sale -->
+            <div class="mb-3">
+                <label for="onsale" class="form-label">On Sale</label>
+                <input 
+                    type="checkbox" class="form-check-input" name="onsale" value="onsale"
+                    #onsale [(ngModel)]="videogame.onSale" (change)="onSaleChange($event)"
+                />
+            </div>
+    
+            <input type="submit" class="btn btn-primary" value="Submit">
+        </form>
+    </div>
+</div>

@@ -1,0 +1,160 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/capsule/0.3u9wex038p.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capsule\0.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3u9wex038p"},{"Name":"integrity","Value":"sha256-NVR82XFlFFKJcfsWw/GEr782/IL3DscWF8A8tW\u002B\u002B6jE="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/capsule/0.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"86865"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NVR82XFlFFKJcfsWw/GEr782/IL3DscWF8A8tW\u002B\u002B6jE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:26:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/capsule/0.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capsule\0.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NVR82XFlFFKJcfsWw/GEr782/IL3DscWF8A8tW\u002B\u002B6jE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"86865"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NVR82XFlFFKJcfsWw/GEr782/IL3DscWF8A8tW\u002B\u002B6jE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:26:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/capsule/2.3u9wex038p.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capsule\2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3u9wex038p"},{"Name":"integrity","Value":"sha256-NVR82XFlFFKJcfsWw/GEr782/IL3DscWF8A8tW\u002B\u002B6jE="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/capsule/2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"86865"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NVR82XFlFFKJcfsWw/GEr782/IL3DscWF8A8tW\u002B\u002B6jE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:32:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/capsule/2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capsule\2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NVR82XFlFFKJcfsWw/GEr782/IL3DscWF8A8tW\u002B\u002B6jE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"86865"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NVR82XFlFFKJcfsWw/GEr782/IL3DscWF8A8tW\u002B\u002B6jE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:32:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/capsule/3.bz16263fat.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capsule\3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bz16263fat"},{"Name":"integrity","Value":"sha256-h1loUq4elkhdPg91XBk7\u002BGNhDsQZ\u002BGlkD6BtpNE4PTU="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/capsule/3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"140149"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022h1loUq4elkhdPg91XBk7\u002BGNhDsQZ\u002BGlkD6BtpNE4PTU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 15:50:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/capsule/3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capsule\3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-h1loUq4elkhdPg91XBk7\u002BGNhDsQZ\u002BGlkD6BtpNE4PTU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"140149"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022h1loUq4elkhdPg91XBk7\u002BGNhDsQZ\u002BGlkD6BtpNE4PTU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 15:50:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/capsule/6.3592ws7fgu.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capsule\6.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3592ws7fgu"},{"Name":"integrity","Value":"sha256-x9pGOm1CvHQ\u002BqjCaW5qvVG1Xhzr/Xkt4m3mUs58z8po="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/capsule/6.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"175075"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022x9pGOm1CvHQ\u002BqjCaW5qvVG1Xhzr/Xkt4m3mUs58z8po=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 07:44:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/capsule/6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capsule\6.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-x9pGOm1CvHQ\u002BqjCaW5qvVG1Xhzr/Xkt4m3mUs58z8po="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"175075"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022x9pGOm1CvHQ\u002BqjCaW5qvVG1Xhzr/Xkt4m3mUs58z8po=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 07:44:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/capsule/9.0vjci9nfg4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capsule\9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0vjci9nfg4"},{"Name":"integrity","Value":"sha256-dMrZeOO4vj3cW8gLeFeu7R4FBNvBmbXfY72SP2QEEjY="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/capsule/9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"108775"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dMrZeOO4vj3cW8gLeFeu7R4FBNvBmbXfY72SP2QEEjY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 08:17:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/capsule/9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capsule\9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dMrZeOO4vj3cW8gLeFeu7R4FBNvBmbXfY72SP2QEEjY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"108775"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dMrZeOO4vj3cW8gLeFeu7R4FBNvBmbXfY72SP2QEEjY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 08:17:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/header/0.6gaexmsk3f.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\header\0.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6gaexmsk3f"},{"Name":"integrity","Value":"sha256-mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/header/0.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2527"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:26:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/header/0.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\header\0.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2527"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:26:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/header/2.6gaexmsk3f.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\header\2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6gaexmsk3f"},{"Name":"integrity","Value":"sha256-mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/header/2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2527"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:32:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/header/2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\header\2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2527"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:32:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/header/3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\header\3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/BZNW9MPdcZhw3cEAaIezk2h9BMJ5KV7vqUlj9Ga2Yk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"178855"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/BZNW9MPdcZhw3cEAaIezk2h9BMJ5KV7vqUlj9Ga2Yk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 15:50:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/header/3.olfs5xp4s3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\header\3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"olfs5xp4s3"},{"Name":"integrity","Value":"sha256-/BZNW9MPdcZhw3cEAaIezk2h9BMJ5KV7vqUlj9Ga2Yk="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/header/3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"178855"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/BZNW9MPdcZhw3cEAaIezk2h9BMJ5KV7vqUlj9Ga2Yk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 15:50:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/header/6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\header\6.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/BZNW9MPdcZhw3cEAaIezk2h9BMJ5KV7vqUlj9Ga2Yk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"178855"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/BZNW9MPdcZhw3cEAaIezk2h9BMJ5KV7vqUlj9Ga2Yk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 07:44:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/header/6.olfs5xp4s3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\header\6.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"olfs5xp4s3"},{"Name":"integrity","Value":"sha256-/BZNW9MPdcZhw3cEAaIezk2h9BMJ5KV7vqUlj9Ga2Yk="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/header/6.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"178855"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/BZNW9MPdcZhw3cEAaIezk2h9BMJ5KV7vqUlj9Ga2Yk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 07:44:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/header/9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\header\9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-K0TAXm9JLojqO9TtnNNJsVkJyTIwEtCvv3nZt1Rb4xo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"101874"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022K0TAXm9JLojqO9TtnNNJsVkJyTIwEtCvv3nZt1Rb4xo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 08:17:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/header/9.xl0n1mml9n.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\header\9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xl0n1mml9n"},{"Name":"integrity","Value":"sha256-K0TAXm9JLojqO9TtnNNJsVkJyTIwEtCvv3nZt1Rb4xo="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/header/9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"101874"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022K0TAXm9JLojqO9TtnNNJsVkJyTIwEtCvv3nZt1Rb4xo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 08:17:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/users/213.6gaexmsk3f.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\users\213.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6gaexmsk3f"},{"Name":"integrity","Value":"sha256-mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/users/213.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2527"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:39:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/users/213.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\users\213.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2527"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mjpsXIvmosfpIxzta9CBqmeNgxQirMFTs3bQyFDdVg8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 15:39:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/users/214.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\users\214.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yucSYyi6j3DsEYL/UPE2/3bLZQ0bzG2S/bE2aWHpdbg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"92320"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022yucSYyi6j3DsEYL/UPE2/3bLZQ0bzG2S/bE2aWHpdbg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 13:04:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/users/214.uy9rxnnbcd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\users\214.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uy9rxnnbcd"},{"Name":"integrity","Value":"sha256-yucSYyi6j3DsEYL/UPE2/3bLZQ0bzG2S/bE2aWHpdbg="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/users/214.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"92320"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022yucSYyi6j3DsEYL/UPE2/3bLZQ0bzG2S/bE2aWHpdbg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 13:04:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/users/215.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\users\215.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YhL9AtnoHoM/BthmN3paW5k8tgSvYMiDRmo/VOKq5HE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13400"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YhL9AtnoHoM/BthmN3paW5k8tgSvYMiDRmo/VOKq5HE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 13:17:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HeartbitGamesNet/img/users/215.uhus5xo70r.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\users\215.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uhus5xo70r"},{"Name":"integrity","Value":"sha256-YhL9AtnoHoM/BthmN3paW5k8tgSvYMiDRmo/VOKq5HE="},{"Name":"label","Value":"_content/HeartbitGamesNet/img/users/215.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13400"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YhL9AtnoHoM/BthmN3paW5k8tgSvYMiDRmo/VOKq5HE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 13:17:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

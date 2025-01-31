@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="search-form-container">
+        <h2 class="text-center mb-4">Advanced Search</h2>
+        <form #searchForm="ngForm" (ngSubmit)="searchGame(searchForm)">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" name="title" id="title" class="form-control" placeholder="Title..."
+                #title="ngModel" [(ngModel)]="searchParams.title">
+            </div>
+
+            <div class="mb-3">
+                <label for="tag" class="form-label">Tags</label>
+                <select name="tag" id="tag" class="form-select" #tag="ngModel" [(ngModel)]="searchParams.tag">
+                    <option value="" selected>None...</option>
+                    @for (t of filters.tags; track $index) {
+                        <option [value]="t">{{t}}</option>
+                    }
+                </select>
+            </div>
+
+            <div class="mb-4">
+                <label for="dev" class="form-label">Developers</label>
+                <select name="dev" id="dev" class="form-select" #dev="ngModel" [(ngModel)]="searchParams.developer">
+                    <option value="" selected>None...</option>
+                    @for (d of filters.devs; track $index) {
+                        <option [value]="d">{{d}}</option>
+                    }
+                </select>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-success btn-lg" [disabled]="searchForm.pristine || searchForm.invalid">Search</button>
+            </div>
+        </form>
+    </div>
+</div>

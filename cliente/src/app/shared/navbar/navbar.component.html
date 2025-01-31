@@ -1,0 +1,73 @@
+<div class="row">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" routerLink="">Heartbit Games</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link clickable" id="home-link" aria-current="page" routerLink="/videogame-list" routerLinkActive="active">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            User
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li id="login-item"><a id="login-link" class="dropdown-item clickable" routerLink="login" routerLinkActive="active" [hidden]="isUserLoggedIn">Login</a></li>
+                            <li id="signup-item"><a id="signup-link" class="dropdown-item clickable" routerLink="signup" routerLinkActive="active" [hidden]="isUserLoggedIn">Sign Up</a></li>
+                            <li id="profile-item" [hidden]="!isUserLoggedIn">
+                                <a id="profile-link" class="dropdown-item clickable" routerLink="profile" routerLinkActive="active">Profile</a>
+                            </li>
+                            <li id="logout-item" [hidden]="!isUserLoggedIn">
+                                <a id="logout-link" class="dropdown-item" href="#" (click)="logOut($event)">Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tags
+                        </a>
+                        <ul class="dropdown-menu">
+                            @for (t of tags; track $index) {
+                                <li id="tag-item">
+                                    <a class="dropdown-item clickable" (click)="getVideogamesByTag(t)">{{t}}</a>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link clickable" id="cart-link" aria-current="page" routerLink="cart" routerLinkActive="active-page" [hidden]="!isUserLoggedIn">Cart</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Admin Panel
+                        </a>
+                        <ul class="dropdown-menu">
+                            <a class="dropdown-item clickable" id="admin-login-link" aria-current="page" routerLink="login-admin" routerLinkActive="active-page">Login Admin</a>
+                            <a class="dropdown-item clickable" id="videogame-list-link" aria-current="page" routerLink="admin/videogame-list" routerLinkActive="active-page" [hidden]="!isAdminLoggedIn">Videogame List</a>
+                            <a class="dropdown-item clickable" id="add-videogame-link" aria-current="page" routerLink="admin/add-videogame" routerLinkActive="active-page" [hidden]="!isAdminLoggedIn">Add Videogame</a>
+                            <a class="dropdown-item clickable" id="user-list-link" aria-current="page" routerLink="admin/user-list" routerLinkActive="active-page" [hidden]="!isAdminLoggedIn">Users List</a>
+                            <a class="dropdown-item clickable" id="add-user-link" aria-current="page" routerLink="admin/add-user" routerLinkActive="active-page" [hidden]="!isAdminLoggedIn">Add User</a>
+                            <a class="dropdown-item clickable" id="order-list-link" aria-current="page" routerLink="admin/order-list" routerLinkActive="active-page" [hidden]="!isAdminLoggedIn">Order List</a>
+                        </ul>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search" id="search-form" #searchForm="ngForm" (ngSubmit)="searchGame(searchForm)">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search" name="search" 
+                    #search="ngModel" [(ngModel)]="title" pattern="^.*\S.*$" required>
+                    <button class="btn btn-outline-success" type="submit" [disabled]="search.pristine || search.invalid" style="margin-right: 10px;">Search</button>
+                </form>
+                <button class="btn btn-outline-warning" (click)="advancedSearch()"><i class="bi bi-filter"></i></button>
+            </div>
+        </div>
+    </nav>
+</div>
+<hr>

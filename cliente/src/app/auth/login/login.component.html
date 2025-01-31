@@ -1,0 +1,21 @@
+<form #loginForm="ngForm" (ngSubmit)="onLoginSubmit(loginForm)">
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control"
+        required pattern="^([a-zA-Z0-9_\.-]+)@([0-9a-zA-Z\.-]+)\.([a-zA-Z\.]+)$" 
+        [(ngModel)]="user.email" id="email" name="email" #email="ngModel" placeholder="example@mail.com">
+        <div class="alert alert-danger" [hidden]="email.valid || email.pristine">
+            Email must be like the placeholder: example&#64;mail.com
+        </div>
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control"
+        required pattern="^[a-zA-Z0-9]{8,20}$" 
+        [(ngModel)]="user.password" id="password" name="password" #password="ngModel">
+        <div class="alert alert-danger" [hidden]="password.valid || password.pristine">
+            Password must be between 8 and 20 characters long
+        </div>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Log In" [disabled]="loginForm.invalid">
+</form>

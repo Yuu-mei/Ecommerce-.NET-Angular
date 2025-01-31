@@ -1,0 +1,33 @@
+<div class="col-12">
+    <div class="card bg-dark text-white">
+        <div class="card-body">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-md-2">
+                    <img src="server/img/header/{{cartItem.videogameId}}.jpg" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-5 col-md-4">
+                    <h5 class="card-title mb-2">{{cartItem.title}}</h5>
+                    <p class="card-text mb-0">
+                        Developer: <span class="text-primary">{{cartItem.developer}}</span>
+                    </p>
+                    <p class="card-text mb-0">
+                        Tag: <span class="text-warning">{{cartItem.tag}}</span>
+                    </p>
+                    <p class="card-text text-muted mb-0">{{shortenedDescription}}</p>
+                </div>
+                <div class="col-lg-2 col-md-2 d-flex align-items-center">
+                    <!-- Quantity Controls -->
+                    <button class="btn btn-secondary btn-sm me-2" [disabled]="cartItem.quantity === 1" (click)="modifyQuantity(-1)">-</button>
+                    <span class="mx-2">{{cartItem.quantity}}</span>
+                    <button class="btn btn-secondary btn-sm ms-2" (click)="modifyQuantity(+1)">+</button>
+                </div>
+                <div class="col-lg-2 col-md-2 text-center">
+                    <p class="mb-0">${{(cartItem.price * cartItem.quantity).toFixed(2)}}</p>
+                </div>
+                <div class="col-lg-1 col-md-1 text-end">
+                    <button class="btn btn-danger btn-sm" (click)="removeVideogame()">🗑️</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

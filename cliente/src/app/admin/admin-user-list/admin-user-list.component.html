@@ -1,0 +1,20 @@
+<main>
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Admin Dashboard - User List</h1>
+    </div>
+    <div class="bg-body rounded shadow-sm">
+        @for(user of users; track user.id){
+            <div class="d-flex text-body-primary pt-3">
+                <img class="rounded flex-shrink-0 m-2" style="width: 32px; height: 32px;" src="server/img/users/{{user.id}}.jpg">
+                <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                    <div class="d-flex">
+                    <strong class="text-gray-dark me-auto">{{user.username}} - Active: {{user.active == 1 ? "True" : "False"}}</strong>
+                    <button (click)="editUser(user.id!)" class="btn btn-warning btn-sm ms-auto me-2">Edit</button>
+                    <button (click)="deactivateUser(user.id!)" class="btn btn-danger btn-sm me-2">Deactivate</button>
+                    </div>
+                    <span class="d-block">{{user.email}}</span>
+                </div>
+            </div>
+        }
+    </div>	
+</main>

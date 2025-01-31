@@ -1,0 +1,31 @@
+<div class="container">
+    <h2 class="mb-4">Shopping Cart</h2>
+    <div class="row gy-4">
+        @if(loading){
+            <div class="d-flex justify-content-center my-3">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        }@else if(cartItems.length <= 0){
+            <div class="d-flex justify-content-center my-3">
+                <h2 class="text-warning">No items in cart, please add some!</h2>
+            </div>
+        }@else if(error) {
+            <div class="d-flex justify-content-center my-3">
+                <h2 class="text-danger">Error loading the cart, please refresh</h2>
+            </div>
+        }@else if (cartItems.length > 0){
+            @for (cartItem of cartItems; track $index) {
+                <app-cart-item [cartItem]="cartItem" (onQuantityChange)="onQuantityChange(cartItem, $event)" (onRemove)="onRemove(cartItem)"/>
+            }
+        }
+        <div class="col mt-4">
+            <div class="card bg-dark text-white">
+                <div class="card-body text-end">
+                    <h5>Total Price: <span id="total-price">${{totalPrice.toFixed(2)}}</span></h5>
+                    <button class="btn btn-success mt-2" (click)="checkOut()" [disabled]="cartItems.length === 0 || cartItems === undefined">Checkout</button>
+                </div>
+            </div>
+        </div>
+</div>

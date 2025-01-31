@@ -1,0 +1,35 @@
+<form enctype="multipart/form-data" #signUpForm="ngForm" (ngSubmit)="onSignUpForm(signUpForm)">
+    <div class="mb-3">
+      <label for="username" class="form-label">Username</label>
+      <input type="text" class="form-control" name="username" id="username" 
+      required placeholder="username" pattern="^[a-zA-Z_ -]{3,30}$"
+      [(ngModel)]="user.username" #username="ngModel" >
+      <div class="alert alert-danger" [hidden]="username.valid || username.pristine">
+       Must be between 3-30 characters and can contain letters and _ -
+      </div>	
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" name="email" id="email"
+      required placeholder="example@mail.com" pattern="^([a-zA-Z0-9_\.-]+)@([0-9a-zA-Z\.-]+)\.([a-zA-Z\.]+)$"
+      [(ngModel)]="user.email" #email="ngModel">
+      <div class="alert alert-danger" [hidden]="email.valid || email.pristine">
+        Email must be like the placeholder: example&#64;mail.com
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" name="password" id="password"
+      required pattern="^[a-zA-Z0-9]{8,20}$"
+      [(ngModel)]="user.password" #password="ngModel">
+      <div class="alert alert-danger" [hidden]="password.valid || password.pristine">
+        Password must be between 8 and 20 characters long
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="profile_pic" class="form-label">Profile pic</label>
+      <input type="file" class="form-control" name="profile_pic" id="profile_pic"
+      accept="image/*" (change)="onFileChange($event)" required>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Sign Up" [disabled]="signUpForm.invalid || profile_pic === undefined">
+</form>

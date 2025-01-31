@@ -1,0 +1,88 @@
+<main>
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Admin Dashboard - Order Details</h1>
+    </div>
+    <div class="container min-vh-100">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card bg-secondary p-4 text-white">
+                    <h4 class="text-center mb-4">Order Summary</h4>
+                    
+                    <!-- Products Information Section -->
+                    <h5 class="mb-3">Products Information:</h5>
+                    <div class="row mb-3">
+                            @for(videogame of orderDetail.orderVideogames; track videogame.id){
+                                <div class="col-md-12 mb-3">
+                                    <div class="d-flex align-items-center border p-2 rounded bg-light text-black">
+                                        <!-- Image -->
+                                        <div class="me-3">
+                                        <img src="server/img/header/{{videogame.id}}.jpg" style="height: 60px; width: 90px" class="rounded">
+                                        </div>
+                                        
+                                        <!-- Title -->
+                                        <div class="flex-grow-1">
+                                        <b>{{videogame.title}}</b>
+                                        </div>
+                                        
+                                        <!-- Quantity and Price -->
+                                        <div class="text-end">
+                                        <p class="mb-0">Quantity: <span>{{videogame.quantity}}</span></p>
+                                        <p class="mb-0">Price: <span>{{videogame.price}}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                    </div>
+                    
+                    <!-- Customer Information Section -->
+                    <h5 class="mb-3">Customer Information:</h5>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>Full Name:</strong></p>
+                            <p id="fullName">{{orderDetail.fullName}}</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>Country:</strong></p>
+                            <p id="country">{{orderDetail.country}}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>State:</strong></p>
+                            <p id="state">{{orderDetail.state}}</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>Zip Code:</strong></p>
+                            <p id="zip_code">{{orderDetail.zipCode}}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>Address:</strong></p>
+                            <p id="address">{{orderDetail.address}}</p>
+                        </div>
+                    </div>
+    
+                    <!-- Card Information Section -->
+                    <h5 class="mt-4 mb-3">Card Information:</h5>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>Card Number:</strong></p>
+                            <p id="cardNumber">{{orderDetail.cardNumber}}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>Card Owner:</strong></p>
+                            <p id="cardOwner">{{orderDetail.cardOwner}}</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <p class="mb-1"><strong>CCV:</strong></p>
+                            <p id="ccv">{{orderDetail.ccv}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>				
+</main>

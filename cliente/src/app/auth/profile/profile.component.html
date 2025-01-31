@@ -1,0 +1,65 @@
+@if(profile_info === undefined){
+  <div class="d-flex justify-content-center my-3">
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+}@else {
+  <div class="container">
+      <!-- Profile -->
+      <div class="row align-items-center my-5 mx-2">
+        <div class="col-md-4 text-center">
+          <img src="server/img/users/{{user_id}}.jpg" alt="User Image" class="pfp" />
+        </div>
+        <div class="col-md-8">
+          <h3>{{profile_info.user_info.username}}</h3>
+          <ul class="list-unstyled">
+            <li><strong>{{profile_info.user_info.email}}</strong></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Bought Games List -->
+      <div class="row my-2">
+        <h3>Your Library</h3>
+        <hr />
+        @if(profile_info.orders.length == 0){
+          <h4 class="text-warning">You haven't bought any games</h4>
+        }@else {
+          @for (vo of profile_info.orders; track $index) {
+          <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center mb-3">
+    
+              <div class="card hero-card">
+                <img
+                  src="server/img/capsule/{{vo.videogameId}}.jpg"
+                  class="card-img"
+                />
+                <div class="overlay">
+                  <div>
+                    <div class="game-title">{{vo.title}}</div>
+                    <div class="quantity">Quantity: {{vo.quantity}}</div>
+                    <div class="order-number">Order #: {{vo.orderId}}</div>
+                  </div>
+                </div>
+                <a href="#" class="stretched-link" (click)="getVideogameDetails(vo.videogameId, $event)"></a>
+              </div>
+          </div>
+          }
+        }
+      </div>
+      <!-- Wishlisted Games -->
+      <div class="row my-2">
+        <h3>Wishlist</h3>
+        <hr />
+        @if(profile_info.wishlist_info.length == 0){
+          <h4 class="text-warning">You haven't wishlisted any games</h4>
+        }@else {
+          @for (videogame of profile_info.wishlist_info; track $index) {
+            <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center mb-3">
+              <app-videogame-card [videogame]="videogame" />
+            </div>
+          }
+        }
+      </div>
+    </div>
+}
+  

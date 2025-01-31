@@ -1,0 +1,40 @@
+<div class="row mb-3">
+	<div class="d-flex flex-column">
+        <div>
+            <h2>Search Results</h2>
+            @if(searchParams.title){
+                <p>Titled like: <span class="text-success">{{searchParams.title}}</span></p>
+            }
+            @if(searchParams.developer){
+                <p>Made by: <span class="text-primary">{{searchParams.developer}}</span></p>
+            }
+            @if(searchParams.tag){
+                <p>Tagged: <span class="text-warning">{{searchParams.tag}}</span></p>
+            }
+        </div>
+        <hr>
+	</div>
+</div>
+@if(isLoading){
+    <div class="d-flex justify-content-center my-3">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+}@else if (paramsError){
+    <div class="d-flex justify-content-center my-3">
+        <h2 class="text-danger">Error loading videogames, please refresh</h2>
+    </div>
+}@else if(searchResults.length === 0){
+    <div class="d-flex justify-content-center my-3">
+        <h2 class="text-warning">No games found</h2>
+    </div>
+}@else {
+    <div class="row">
+        @for (videogame of searchResults; track $index) {
+            <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center mb-3">
+                <app-videogame-card [videogame]="videogame" />
+            </div>
+        }
+    </div> 
+}

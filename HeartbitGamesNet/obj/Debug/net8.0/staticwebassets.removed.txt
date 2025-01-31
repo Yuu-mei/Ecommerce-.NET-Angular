@@ -1,0 +1,7 @@
+D:\ACertainGlitch\DAW_FP\tienda_angular_net\Ecommerce .NET - Angular\HeartbitGamesNet\wwwroot\img\capsule\0.jpg
+D:\ACertainGlitch\DAW_FP\tienda_angular_net\Ecommerce .NET - Angular\HeartbitGamesNet\wwwroot\img\capsule\6.jpg
+D:\ACertainGlitch\DAW_FP\tienda_angular_net\Ecommerce .NET - Angular\HeartbitGamesNet\wwwroot\img\capsule\9.jpg
+D:\ACertainGlitch\DAW_FP\tienda_angular_net\Ecommerce .NET - Angular\HeartbitGamesNet\wwwroot\img\header\0.jpg
+D:\ACertainGlitch\DAW_FP\tienda_angular_net\Ecommerce .NET - Angular\HeartbitGamesNet\wwwroot\img\header\6.jpg
+D:\ACertainGlitch\DAW_FP\tienda_angular_net\Ecommerce .NET - Angular\HeartbitGamesNet\wwwroot\img\header\9.jpg
+D:\ACertainGlitch\DAW_FP\tienda_angular_net\Ecommerce .NET - Angular\HeartbitGamesNet\wwwroot\img\users\213.jpg

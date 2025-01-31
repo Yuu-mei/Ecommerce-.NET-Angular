@@ -1,0 +1,19 @@
+<main>
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Admin Dashboard - Order List</h1>
+    </div>
+    <div class="bg-body rounded shadow-sm">
+        @for(order of orders; track order.orderId){
+            <div class="d-flex text-body-primary pt-3">
+                <div class="pb-3 mb-0 small lh-sm border-bottom w-100 mx-2">
+                    <div class="d-flex">
+                    <strong class="text-gray-dark me-auto">Order ID: {{order.orderId}} | Name: {{order.fullName}}</strong>
+                    <a routerLink="../order/{{order.orderId}}" class="btn btn-warning btn-sm ms-auto me-2 clickable">Details</a>
+                    </div>
+                    <span class="d-block">{{order.address}}</span>
+                    <span class="d-block">{{order.email}}</span>
+                </div>
+            </div>
+        }
+    </div>	
+</main>

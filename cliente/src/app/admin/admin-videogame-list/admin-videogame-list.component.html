@@ -1,0 +1,49 @@
+<main>
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Admin Dashboard - Videogame List</h1>
+    </div>
+    <div class="row">
+        @for(videogame of videogames; track videogame.id){
+            <div class='col-lg-6 col-xs-12'>
+                <div class="card mb-3">
+                    <div class="container mt-1">
+                        <div class="row">
+                            <div class='col-4'>
+                                <img alt="header" src="server/img/header/{{videogame.id}}.jpg" class="card-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body" style="height: 350px;">
+                      <h5 class="card-title">
+                          <span>{{videogame.id}}</span> - <span>{{videogame.title}}</span> - <span>{{videogame.release_date}}</span>
+                      </h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">
+                        <small style="margin: 2px;">{{videogame.developer}}</small>
+                        <br>
+                        <small style="margin: 2px;">On sale?: {{videogame.onSale == true ? "true" : "false"}}</small>
+                      </h6>
+                      <p class="card-text">{{videogame.description}}</p>
+                      <p class="card-text">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-8">
+                                    <small class="text-primary-emphasis fw-medium">{{videogame.tag}}</small>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <small class="text-success fw-medium">{{videogame.price}}</small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-end">
+                                    <button class="btn btn-danger m-1" (click)="deleteVideogame(videogame.id)">Delete</button>
+                                    <button class="btn btn-warning m-1" (click)="editVideogame(videogame.id)">Edit</button>
+                                    <button class="btn btn-info m-1" (click)="deactivateVideogame(videogame.id)">Deactivate</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</main>

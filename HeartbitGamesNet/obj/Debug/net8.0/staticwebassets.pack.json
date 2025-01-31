@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\capsule\\0.jpg",
+      "PackagePath": "staticwebassets\\img\\capsule\\0.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\capsule\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\capsule\\2.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\capsule\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\capsule\\3.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\capsule\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\capsule\\6.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\capsule\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\capsule\\9.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\header\\0.jpg",
+      "PackagePath": "staticwebassets\\img\\header\\0.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\header\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\header\\2.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\header\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\header\\3.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\header\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\header\\6.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\header\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\header\\9.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\users\\213.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\213.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\users\\214.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\214.jpg"
+    },
+    {
+      "Id": "D:\\ACertainGlitch\\DAW_FP\\tienda_angular_net\\HeartbitGamesNet\\wwwroot\\img\\users\\215.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\215.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HeartbitGamesNet.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HeartbitGamesNet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HeartbitGamesNet.props",
+      "PackagePath": "build\\HeartbitGamesNet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HeartbitGamesNet.props",
+      "PackagePath": "buildMultiTargeting\\HeartbitGamesNet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HeartbitGamesNet.props",
+      "PackagePath": "buildTransitive\\HeartbitGamesNet.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
